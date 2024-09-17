@@ -1,0 +1,16 @@
+:root {
+    --peach-color: #e7816b;
+    --black-color: #1d1c1e;
+    --white-color: #fff;
+    --light-peach-color: #ffad9b;
+    --dark-gray-color: #333136;
+    --light-gray-color: #f1f3f5;
+    --main-font-family: 'Jost', Arial, sans-serif;
+    --h1-fs: 4.8rem;
+    --h2-fs: 4rem;
+    --h2-lh: 1.2;
+    --h2-ls: 2px;
+    --h3-fs: 2rem;
+    --h3-lh: 1.15;
+    --h3-ls: 5px;
+}

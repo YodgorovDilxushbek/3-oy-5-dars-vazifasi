@@ -1,0 +1,84 @@
+@import 'font.css';
+@import 'normalize.css';
+@import 'variables.css';
+@import 'header.css';
+@import 'footer.css';
+@import 'talk-project.css';
+@import 'country.css';
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    object-fit: cover;
+    display: flex;
+}
+
+html {
+    height: 100%;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: var(--main-font-family);
+    font-size: 1.6rem;
+    line-height: 1.625;
+}
+
+main {
+    flex-grow: 1;
+}
+
+#active {
+    color: var(--peach-color);
+    text-decoration: underline;
+}
+
+.container {
+    width: 100%;
+    max-width: 1211px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--peach-color);
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #3B3B3B;
+    cursor: grab;
+}
+
+::-webkit-scrollbar-thumb:active {
+    cursor: grabbing;
+}

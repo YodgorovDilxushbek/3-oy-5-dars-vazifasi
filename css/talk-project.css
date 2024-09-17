@@ -1,0 +1,117 @@
+.talk-project {
+    margin-bottom: -70px;
+}
+
+.talk-project-container {
+    max-width: 1095px;
+    margin: 0 auto;
+}
+
+.talk-project-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--peach-color);
+    background-image: url(../images/shared/desktop/bg-pattern-call-to-action.svg);
+    background-repeat: no-repeat;
+    background-position: 147px -148px;
+    padding: 72px 95px;
+    border-radius: 20px;
+}
+
+.talk-project-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.talk-project-text h2 {
+    max-width: 269px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 4rem;
+    color: var(--white-color);
+}
+
+.talk-project-text p {
+    max-width: 459px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 1px;
+    color: var(--white-color);
+}
+
+.talk-btn {
+    padding: 17px 19px;
+    background-color: var(--white-color);
+    border: none;
+    color: var(--dark-gray-color);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.talk-btn:hover {
+    background-color: var(--light-peach-color);
+    color: var(--white-color);
+}
+
+.talk-btn:active {
+    transform: scale(0.8);
+}
+
+@media screen and (max-width: 960px) {
+    .talk-project-container {
+        max-width: 690px;
+    }
+
+    .talk-project-main {
+        padding: 57px 59px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 32px;
+        background-position: left;
+    }
+
+    .talk-project-text {
+        max-width: 573px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .talk-project-text h2 {
+        max-width: 335px;
+    }
+
+    .talk-project-text p {
+        max-width: 550px;
+    }
+}
+
+@media screen and (max-width:718px) {
+    .talk-project-main {
+        padding: 64px 24px;
+    }
+
+    .talk-project {
+        margin-bottom: -195px;
+    }
+
+    .talk-project-text h2 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .talk-project-text p {
+        max-width: 279px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+}

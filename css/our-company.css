@@ -1,0 +1,276 @@
+    @import 'global.css';
+
+    main {
+        display: flex;
+        flex-direction: column;
+        gap: 160px;
+        margin-bottom: 160px;
+    }
+
+    .about_us-main {
+        display: flex;
+    }
+
+    .about_us-main img {
+        border-radius: 0 20px 20px 0;
+        max-width: 476px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .about_us-text {
+        max-width: 640px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 32px;
+        border-radius: 20px 0 0 20px;
+        background-color: var(--peach-color);
+        background-image: url(../images/shared/desktop/bg-pattern-small-circle.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        padding-left: 95px;
+        padding-right: 15px;
+    }
+
+    .about_us-text h1 {
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 48px;
+        color: var(--white-color);
+    }
+
+    .about_us-text p {
+        max-width: 472px;
+        width: 100%;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: var(--white-color);
+    }
+
+    .talent-main {
+        display: flex;
+    }
+
+    .talent-main img {
+        border-radius: 20px 0 0 20px;
+        max-width: 476px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .talent-text {
+        max-width: 640px;
+        width: 100%;
+        display: flex;
+        padding-left: 94px;
+        padding-right: 60px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 24px;
+        border-radius: 0 20px 20px 0;
+        background-color: #FDF3F0;
+        background-image: url(../images/shared/desktop/bg-pattern-three-circles.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+    }
+
+    .talent-text h2 {
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 48px;
+        color: var(--peach-color);
+    }
+
+    .talent-text p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: var(--dark-gray-color);
+    }
+
+    .real_deal-main {
+        display: flex;
+    }
+
+    .real_deal-main img {
+        max-width: 476px;
+        height: 100%;
+        width: 100%;
+        /* border-radius: 0 20px 20px 0; */
+        border-radius: 0 20px 20px 0;
+    }
+
+    .real_deal-text {
+        max-width: 640px;
+        width: 100%;
+        display: flex;
+        padding-left: 94px;
+        padding-right: 60px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 24px;
+        border-radius: 20px 0 0 20px;
+        background-color: #FDF3F0;
+        background-image: url(../images/shared/desktop/bg-pattern-three-circles.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+    }
+
+    .real_deal-text h2 {
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 48px;
+        color: var(--peach-color);
+    }
+
+    .real_deal-text p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: var(--dark-gray-color);
+    }
+
+    @media screen and (max-width: 960px) {
+        main {
+            gap: 120px;
+            margin-bottom: 120;
+        }
+
+        .about_us-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .about_us-main {
+            max-width: 689px;
+            width: 100%;
+            flex-direction: column-reverse;
+        }
+
+        .about_us-main img {
+            max-width: 689px;
+            max-height: 320px;
+            border-radius: 20px 20px 0 0;
+        }
+
+        .about_us-text {
+            max-width: 689px;
+            width: 100%;
+            align-items: center;
+            text-align: center;
+            padding: 64px 58px;
+            border-radius: 0 0 20px 20px;
+        }
+
+        .about_us-text p {
+            max-width: 573px;
+        }
+
+        .talent-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .talent-main {
+            max-width: 689px;
+            width: 100%;
+            flex-direction: column;
+        }
+
+        .talent-main img {
+            max-width: 689px;
+            max-height: 320px;
+            border-radius: 20px 20px 0 0;
+        }
+
+        .talent-text {
+            max-width: 689px;
+            width: 100%;
+            align-items: center;
+            text-align: center;
+            padding: 68px 59px;
+            border-radius: 0 0 20px 20px;
+        }
+
+        .real_deal-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .real_deal-main {
+            max-width: 689px;
+            width: 100%;
+            flex-direction: column-reverse;
+        }
+
+        .real_deal-main img {
+            max-width: 689px;
+            max-height: 320px;
+            border-radius: 20px 20px 0 0;
+        }
+
+        .real_deal-text {
+            max-width: 689px;
+            width: 100%;
+            align-items: center;
+            text-align: center;
+            padding: 68px 59px;
+            border-radius: 0 0 20px 20px;
+        }
+    }
+
+    @media screen and (max-width:718px) {
+        .about_us-text h1 {
+            max-width: 327px;
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 36px;
+        }
+
+        .about_us-text p {
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 20px;
+        }
+
+        .talent-text {
+            padding: 60px 24px;
+        }
+
+        .talent-text h2 {
+            max-width: 327px;
+            font-size: 32px;
+            line-height: 36px;
+        }
+
+        .talent-text p {
+            max-width: 327px;
+            font-size: 15px;
+            line-height: 25px;
+        }
+
+        .real_deal-text {
+            padding: 60px 24px;
+        }
+
+        .real_deal-text h2 {
+            max-width: 327px;
+            font-size: 32px;
+            line-height: 36px;
+        }
+
+        .real_deal-text p {
+            max-width: 327px;
+            font-size: 15px;
+            line-height: 25px;
+        }
+    }

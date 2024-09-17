@@ -1,0 +1,110 @@
+@import 'global.css';
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 160px;
+}
+
+.canada-container {
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.canada-text {
+    max-width: 730px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FDF3F0;
+    background-image: url(../images/shared/desktop/bg-pattern-two-circles.svg);
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
+    gap: 24px;
+    padding: 0 95px;
+    border-radius: 15px;
+}
+
+.canada-text h2 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    color: var(--peach-color);
+}
+
+.canada-adres {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.canada-adres p {
+    max-width: 255px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    color: var(--dark-color);
+}
+
+.canada-adres span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--dark-color);
+}
+
+.canada-map img {
+    border-radius: 15px;
+}
+
+.australia {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 960px) {
+    main {
+        gap: 120px;
+        margin-bottom: 120;
+    }
+
+    .canada-container {
+        max-width: 1000px;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .canada-map img {
+        max-width: 689px;
+        width: 100%;
+        max-height: 326px;
+        height: 100%;
+    }
+
+    .canada-text {
+        max-width: 889px;
+        width: 100%;
+        padding: 88px 75px;
+    }
+}
+
+@media screen and (max-width: 718px) {
+    .canada-text {
+        padding: 80px 24px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .canada-adres {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+}
